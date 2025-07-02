@@ -1,0 +1,72 @@
+/* styles/Createcampaign.module.css */
+
+.pageWrapper {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f0f4f8, #d9e2ec);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #2563eb;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.formContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.formBox {
+  background-color: #ffffff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.formBox label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #1a202c;
+}
+
+.formBox input[type="text"],
+.formBox input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #cbd5e0;
+  font-size: 14px;
+  outline: none;
+}
+
+.formBox input[type="submit"],
+.backBtn {
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.formBox input[type="submit"]:hover,
+.backBtn:hover {
+  background-color: #1d4ed8;
+  transform: translateY(-1px);
+}
